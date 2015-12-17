@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <libxml/parser.h>
+#include <libxml/tree.h>
+
+xmlDocPtr doc;
+xmlNodePtr cur;
+
+int cmd_issues_ls(int argc, const char **argv, const char *prefix)
+{
+	int exit_status = 0;
+	int flags;
+}
